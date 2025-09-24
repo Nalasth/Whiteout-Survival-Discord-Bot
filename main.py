@@ -345,7 +345,7 @@ if __name__ == "__main__":
         await bot.load_extension("cogs.logsystem")
         await bot.load_extension("cogs.support_operations")
         await bot.load_extension("cogs.gift_operations")
-        await bot.load_extension("cogs.gift_commands")
+# await bot.load_extension("cogs.gift_commands")
         await bot.load_extension("cogs.changes")
         await bot.load_extension("cogs.w")
         await bot.load_extension("cogs.wel")
