@@ -236,4 +236,4 @@ class DatabaseTransfer(commands.Cog):
         await interaction.followup.send(embed=embed, view=view, ephemeral=True)
 
 async def setup(bot):
-    await bot.add_cog(DatabaseTransfer(bot))
+    await bot.add_cog(DatabaseTransfer(bot))
