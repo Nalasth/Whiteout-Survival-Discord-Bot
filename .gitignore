@@ -1,0 +1,18 @@
+# Fichiers sensibles
+bot_token.txt
+
+# Bases de données locales
+db/
+
+# Fichiers de log
+*.log
+log/
+
+# Fichiers de sauvegarde ou compilés
+*.bak
+*.save
+*.pyc
+__pycache__/
+
+# MacOS metadata
+.DS_Store
