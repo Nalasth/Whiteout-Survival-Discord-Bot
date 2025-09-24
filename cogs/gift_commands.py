@@ -2,14 +2,13 @@ import discord
 from discord.ext import commands
 
 class GiftCommands(commands.Cog):
-    def __init__(self, bot):
+    def __init__(self, bot: commands.Bot):
         self.bot = bot
 
     @commands.command(name="gift")
-    async def gift(self, ctx):
-        """Commande de test pour les gifts"""
+    async def gift(self, ctx: commands.Context):
+        """Ping de test pour vérifier que le cog charge bien."""
         await ctx.send("🎁 Gift command works!")
 
-# Fonction setup obligatoire pour charger le cog
-async def setup(bot):
+async def setup(bot: commands.Bot):
     await bot.add_cog(GiftCommands(bot))
